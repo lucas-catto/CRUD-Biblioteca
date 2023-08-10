@@ -41,31 +41,38 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <?php require_once "./../_root/READER/index.php"; ?>
+        <?php require_once "./_root/READER/index.php"; ?>
 
-        <div class="container">
+        <?php require_once "./_root/CONTAINER/index.php"; ?>
 
-            <?php
-                require "./../config.php";
+        <?php require_once "./_root/FOOTER/index.php"; ?>
 
-                $sql = $pdo->prepare("SELECT Autor.NomeAutor, Livro.Id, Livro.NomeLivro, Livro.Ano, Livro.Descricao FROM Autor INNER JOIN Livro ON Autor.Id = Livro.IdAutor;");
-                $sql->execute();
-                $views = $sql->fetchAll(PDO::FETCH_ASSOC);
-
-                foreach ($views as $view) {
-                    echo "<div class='card'>";
-                        echo "Id: "        . $view["Id"]        . "</br>";
-                        echo "Nome: "      . $view["NomeLivro"] . "</br>";
-                        echo "Autor: "     . $view["NomeAutor"]   . "</br>";
-                        echo "Ano: "       . $view["Ano"]       . "</br>";
-                        echo "Descrição: " . $view["Descricao"] . "</br>";
-                    echo "</div>";
-                }
-
-            ?>
-        </div>
-
-
+        
+        
         
     </body>
 </html>
+
+
+
+    <!-- <div class="container">
+
+        <?php
+            // require "./classes/config.php";
+
+            // $sql = $pdo->prepare("SELECT Autor.NomeAutor, Livro.Id, Livro.NomeLivro, Livro.Ano, Livro.Descricao FROM Autor INNER JOIN Livro ON Autor.Id = Livro.IdAutor;");
+            // $sql->execute();
+            // $views = $sql->fetchAll(PDO::FETCH_ASSOC);
+
+            // foreach ($views as $view) {
+            //     echo "<div class='card'>";
+            //         echo "Id: "        . $view["Id"]        . "</br>";
+            //         echo "Nome: "      . $view["NomeLivro"] . "</br>";
+            //         echo "Autor: "     . $view["NomeAutor"]   . "</br>";
+            //         echo "Ano: "       . $view["Ano"]       . "</br>";
+            //         echo "Descrição: " . $view["Descricao"] . "</br>";
+            //     echo "</div>";
+            // }
+
+        ?>
+    </div> -->

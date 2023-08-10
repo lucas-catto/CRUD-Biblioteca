@@ -8,9 +8,11 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <?php require_once "./../_root/READER/index.php"; ?>
+        <?php require_once "./_root/READER/index.php"; ?>
 
-        <?php require_once "./../_root/FOOTER/index.php"; ?>
+        <?php require_once "./_root/CONTAINER/index.php"; ?>
+
+        <?php require_once "./_root/FOOTER/index.php"; ?>
         
     </body>
 </html>

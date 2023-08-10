@@ -1,7 +1,7 @@
 
 <style>
     
-    /* *{
+    *{
         border:  0;
         margin:  0;
         padding: 0;
@@ -26,11 +26,11 @@
         color:      white;
         font-size:  20px;
         padding:    45px
-    } */
+    }
 
 </style>
 
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -43,5 +43,5 @@
         <p>Por Lucas Catto</p>
     </footer>
     </body>
-</html> -->
+</html>
 

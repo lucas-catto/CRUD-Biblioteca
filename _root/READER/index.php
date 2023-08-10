@@ -64,10 +64,10 @@
     <body>
         <header>
             <ul>
-                <a href="./../../CRUD/CREATE/index.php">CREATE</a>
-                <a href="./../../CRUD/READ/index.php"  >READ</a>
-                <a href="./../../CRUD/UPDATE/index.php">UPDATE</a>
-                <a href="./../../CRUD/DELETE/index.php">DELETE</a>
+                <a href="./CREATE.php">CREATE</a>
+                <a href="./READ.php"  >READ</a>
+                <a href="./UPDATE.php">UPDATE</a>
+                <a href="./DELETE.php">DELETE</a>
             </ul>
         </header>
     </body>
