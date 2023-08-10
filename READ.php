@@ -38,12 +38,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>READ</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./_root/CSS/READ/style.css">
+        <link rel="stylesheet" href="./_root/CONTAINER/style.css">
     </head>
     <body>
         <?php require_once "./_root/READER/index.php"; ?>
 
-        <?php require_once "./_root/CONTAINER/index.php"; ?>
+        <div class="container"></div>
 
         <?php require_once "./_root/FOOTER/index.php"; ?>
 

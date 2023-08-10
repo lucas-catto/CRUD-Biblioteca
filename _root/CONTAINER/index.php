@@ -1,5 +1,5 @@
 <style>
-    *{
+    /* *{
         border:  0;
         padding: 0;
         margin:  0;
@@ -17,10 +17,10 @@
         max-width: 1150px;
         height:    100%;
         background-color: #1338BE;
-    }
+    } */
 </style>
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -30,4 +30,4 @@
     <body>
         <div class="container"></div>
     </body>
-</html>
+</html> -->

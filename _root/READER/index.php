@@ -45,10 +45,10 @@
         font-size: 35px;
     }
 
-    @media screen and (max-width:623px){
+    @media screen and (max-width:683px){
         header{ height: 220px; }
     }
-    @media screen and (max-width:311px){
+    @media screen and (max-width:371px){
         header{ height: 395px; }
     }
 
